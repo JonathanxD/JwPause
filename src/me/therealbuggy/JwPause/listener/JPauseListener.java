@@ -41,8 +41,11 @@ public class JPauseListener implements Listener {
 	private void pause(BlockDispenseEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(BlockExpEvent event){handleEvent(event);}
-	//@EventHandler(priority = EventPriority.HIGH)
-	// 1.8 -> private void pause(BlockExplodeEvent event){handleEvent(event);}
+
+	@EventHandler(priority = EventPriority.HIGH)
+	private void pause(BlockExplodeEvent event) {
+		handleEvent(event);
+	}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(BlockFadeEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
@@ -139,8 +142,11 @@ public class JPauseListener implements Listener {
 	private void pause(HorseJumpEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(ItemDespawnEvent event){handleEvent(event);}
-	// 1.8 -> @EventHandler(priority = EventPriority.HIGH)
-	// 1.8 -> private void pause(ItemMergeEvent event){handleEvent(event);}
+
+	@EventHandler(priority = EventPriority.HIGH)
+	private void pause(ItemMergeEvent event) {
+		handleEvent(event);
+	}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(ItemSpawnEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
@@ -203,8 +209,11 @@ public class JPauseListener implements Listener {
 	private void pause(PlayerAchievementAwardedEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(PlayerAnimationEvent event){handleEvent(event);}
-	// 1.8 -> @EventHandler(priority = EventPriority.HIGH)
-	// 1.8 -> private void pause(PlayerArmorStandManipulateEvent event){handleEvent(event);}
+
+	@EventHandler(priority = EventPriority.HIGH)
+	private void pause(PlayerArmorStandManipulateEvent event) {
+		handleEvent(event);
+	}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(PlayerBedEnterEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
@@ -231,8 +240,11 @@ public class JPauseListener implements Listener {
 	private void pause(PlayerFishEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(PlayerGameModeChangeEvent event){handleEvent(event);}
-	// 1.8 -> @EventHandler(priority = EventPriority.HIGH)
-	// 1.8 -> private void pause(PlayerInteractAtEntityEvent event){handleEvent(event);}
+
+	@EventHandler(priority = EventPriority.HIGH)
+	private void pause(PlayerInteractAtEntityEvent event) {
+		handleEvent(event);
+	}
 	@EventHandler(priority = EventPriority.HIGH)
 	private void pause(PlayerInteractEntityEvent event){handleEvent(event);}
 	@EventHandler(priority = EventPriority.HIGH)
