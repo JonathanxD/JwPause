@@ -1,0 +1,6 @@
+Manifest-Version: 1.0
+Created-By: TheRealBuggy
+Application-Name: JwPausePlugin
+Application-Description: Pause your server
+Application-Version: 1.0
+Application-SymbolicName: JwPause

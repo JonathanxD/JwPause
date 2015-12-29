@@ -1,0 +1,10 @@
+name: JwPause
+main: me.therealbuggy.JwPause.JwPause
+author: TheRealBuggy
+version: 1.0
+commands:
+  pause:
+    usage: /pause
+    description: Pausa e despausa o servidor
+    aliases: [pausar, wait, despausar, resume]
+    permission: jwpause.pausar
