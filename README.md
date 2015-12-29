@@ -20,5 +20,8 @@ Bugs conhecidos:
 * Pausar o servidor também afeta circuitos de redstone, dependendo do momento em que pausar eles irão falhar ao despausar, até os funis param de funcionar.
 * Encontrou outro bug reporte na área de Issue ou no tópico do BlackHubOS.
 
+Bugs corrigidos:
+* Impossibilidade de olhar para os lados enquanto o servidor estivesse pausado.
+
 O que não é pausado?
 * Algumas coisas não são pausadas, como fornalhas ou suporte de poções, mobs, até o momento só testei isto!
